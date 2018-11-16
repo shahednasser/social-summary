@@ -1,0 +1,41 @@
+{
+  "name": "social-summary",
+  "version": "1.0.0",
+  "description": "My sensational Nuxt.js project",
+  "author": "shahednasser",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"nuxt\" \"nodemon server.js\"",
+    "build": "nuxt build",
+    "start": "concurrently nuxt start && node server.js",
+    "generate": "nuxt generate",
+    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0-beta",
+    "concurrently": "^4.0.1",
+    "cors": "^2.8.5",
+    "cross-env": "^5.2.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "nuxt": "^2.0.0",
+    "oauth-1.0a": "^2.2.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-vue": "^4.0.0",
+    "nodemon": "^1.18.6",
+    "prettier": "1.14.3"
+  }
+}
