@@ -1,6 +1,6 @@
 # social-summary
 
-> My sensational Nuxt.js project
+> Search social media in one place.
 
 ## Build Setup
 
