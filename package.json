@@ -26,7 +26,8 @@
     "express": "^4.16.4",
     "lodash": "^4.17.13",
     "nuxt": "^2.0.0",
-    "oauth-1.0a": "^2.2.5"
+    "oauth-1.0a": "^2.2.5",
+    "kind-of": ">=6.0.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
